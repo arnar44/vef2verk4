@@ -8,16 +8,19 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "isomorphic-fetch": "^2.2.1",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.15.1"
   },
   "scripts": {
     "start": "node app.js",
-    "eslint": "eslint *.js **/*.js"
+    "eslint": "eslint *.js **/*.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
